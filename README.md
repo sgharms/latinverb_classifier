@@ -1,6 +1,6 @@
 # LatinverbClassifier
 
-TODO: Write a gem description
+Utility class used to classify a LatinVerb
 
 ## Installation
 
@@ -18,7 +18,8 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+    instance_of_latin_verb = Linguistics::Latin::Verb::LatinVerb 'string defining principal parts'
+    LatinVerbClassifier.new(instance_of_latin_verb)
 
 ## Contributing
 
